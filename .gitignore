@@ -11,3 +11,9 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
+
+/cabin_schema.py
+/message.txt
+
+
+

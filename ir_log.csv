@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Ảnh RGB tối nhưng IR-sim làm đường biên ghế và người ở giữa rõ hơn",class_and_box,"dùng hình dạng để kiểm tra lớp và box; không suy màu"
+S02_ir,IR_sim,"Màu và hoa văn bị mất nhưng hình dạng ghế trẻ em vẫn còn",child_seat,"giữ child_seat theo hình dạng; modality=ir và light=unknown"
+D01,real_IR,"Phản xạ trên kính làm vùng mắt khó phân biệt",eye_left_and_eye_right,"không chắc thì ghi unknown và bật occluded cho điểm bị che"
+D02,real_IR,"Vùng mắt dưới kính tối và có phản xạ",eye_state,"không suy từ mắt còn lại; dùng unknown nếu không thấy rõ mí"
+D03,real_IR,"Chai nước và tay che phần dưới khuôn mặt",face13_flags,"điểm bị che dùng occluded; không đặt điểm cho đủ"
+D06,real_IR,"Góc nghiêng cùng kính làm một mắt khó quan sát",eye_state_and_face13,"mắt không rõ ghi unknown; cờ điểm phải nhất quán với thuộc tính mắt"
